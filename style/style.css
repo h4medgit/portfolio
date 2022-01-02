@@ -1,0 +1,214 @@
+html{
+    background-color: #fdfafa;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #fdfafa;
+    padding-bottom: 50px;
+
+}
+/* font-family: 'Oleo Script', cursive; */
+*{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.navbar{
+    font-weight: bold !important;
+    text-align:center;
+    background-color: #ffff;
+}
+.nav-link{
+    color:#48455a !important;
+    margin: 0px 8px;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: #d8532b !important;
+}
+img{
+    vertical-align: middle;
+}
+.fixed-top.scrolled {
+    background-color: #ffeded !important;
+    transition: background-color 200ms linear;
+    -webkit-box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 10%);
+}
+
+.fixed-top.scrolled .nav-link{
+    color: #48455a !important;
+
+}
+.fixed-top.scrolled .nav-link:hover{
+    color: #d8532b !important;
+    
+    
+}
+.navbar-brand{
+    font-family: 'Oleo Script', cursive;
+}
+
+.container-header .row{
+    padding-top: 100px;
+    width: 100%; 
+    background-image: url('banner.png'); 
+    background-color: #fdfafa;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.center-block{
+    display: block;
+    width: auto;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-icon{
+    width: 100%;
+    text-align: center;
+
+}
+.banner-icon li{
+    display: inline-block;
+    margin: 15px 9px 10px 10px;
+}
+.banner-icon li a{
+    background-color: #d8532b;
+    border-radius: 50%;
+    padding: 11px 12px;
+    font-size: 22px;
+    transition: box-shadow .3s;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.banner-icon li a:hover {
+    box-shadow: 0 0 11px rgba(15, 15, 15, 0.514);
+    background-color: #48455a;
+}
+.right-box-header{
+    padding-top: 50px;
+    text-align: center;
+}
+.btn-workwithme{
+        margin-top: 25px;
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        color: #fdfafa;
+        padding: 10px 15px;
+        transition: box-shadow .3s;
+        background-color: #d8532b;
+        transition: 0.5s;
+}
+.btn-workwithme:hover{
+    box-shadow: 0 0 11px rgba(15, 15, 15, 0.514);
+    background-color: #48455a;
+
+}
+.container-aboutme{
+    padding-top: 100px;
+}
+.col-right-aboutme{
+    padding-top: 50px;
+    
+}
+.col-right-aboutme p{
+    text-align: justify;
+    padding: 10px;
+}
+    
+.title-col-right-aboutme{
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.c-title-right-aboutme{
+    font-size: 14px;
+}
+.container-education{
+    padding-top: 100px;
+}
+.box-edu{
+    width: 80%;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 40px 9px rgba(0,0,0,0.29); 
+    box-shadow: 0px 0px 40px 9px rgba(0, 0, 0, 0.089);
+
+
+}
+.box-edu:hover{
+    background-color: #48455a;
+    color: #fdfafa;
+
+}
+
+.box-edu{
+    text-align: left;
+
+}
+.box-edu i{
+    float: right;
+    font-size: 25px;
+    color: #d8532b;
+    margin-top: 2px;
+}
+.histroy-uni-box{
+    width: auto;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #ffeded;
+    color: #48455a;
+}
+.box-edu p{
+    margin-top: 10px;
+}
+.skill-container {
+    padding-top: 100px;
+    width: 100% !important;
+}
+.skill-container h3{
+    text-align: center;
+}
+.skill-container p{
+    text-align: center;
+}
+.skill-container row{
+    width: 100% !important;
+}
+.col-skills-container{
+    background: none;
+}
+.box-into-tallent{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 45px 0px rgb(0 0 0 / 15%);
+    text-align: center;
+    transition: 0.3s;
+}
+.box-into-tallent p{
+    font-size: 14px;
+}
+.box-into-tallent h5{
+    font-weight: bold;
+}
+.box-into-tallent i{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.box-into-tallent:hover{
+    background-color: #48455a;
+    color: #fdfafa;
+}
