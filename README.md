@@ -6,3 +6,6 @@ you can be using this project so I don't have any problems :)
 - html
 - css
 - bootstrap
+
+
+![Alt Text](https://github.com/h4medgit/portfolio/blob/main/resume.gif)
